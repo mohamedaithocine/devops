@@ -1,0 +1,5 @@
+#!/bin/bash
+# miku virus
+echo "Hello $USER, my name is Hatsune Miku."
+echo "Miku, Miku, you can call me Miku"
+

@@ -1,0 +1,16 @@
+Hello World!
+This is me using the VIM editor
+A lot of people love to glaze this editor like it's what separates a good programmer from a great programmer
+I couldn't care less to be honest with you.
+Whatever writes code innit.
+This is line 1.
+This is line 2.
+This is line 3.
+This is line 4.
+This is sparta 
+This is sparta 
+This is line 6.
+This is line 6.
+This is line 7.
+This is line 8.
+This is line 10.
