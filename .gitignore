@@ -128,3 +128,4 @@ Vagrantfile.local
 .obsidian
 
 ./01-linux/*.private
+./02-bash/battle_arena/Arena
