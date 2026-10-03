@@ -1,11 +1,35 @@
 #!/bin/bash
 
 echo "Making Arena directory.."
-mkdir Arena
-echo "Arena directory created.."
+if [ -e Arena ]; then
+    echo "Arena directory already exists."
+else
+    mkdir Arena
+    echo "Arena directory created.."
+fi
 
 cd ./Arena
 echo "Creating warrior, mage and archer text files.."
-touch warrior.txt mage.txt archer.txt
-echo "Warrior, Mage and Archer text files created."
+
+if [ -e warrior.txt ]; then
+    echo "warrior.txt already exists."
+else
+    touch warrior.txt
+    echo "warrior.txt created."
+fi
+
+if [ -e mage.txt ]; then
+    echo "mage.txt already exists."
+else
+    touch mage.txt
+    echo "mage.txt created."
+fi
+
+if [ -e archer.txt ]; then
+    echo "archer.txt already exists."
+else
+    touch archer.txt
+    echo "archer.txt created."
+fi
+
 ls
