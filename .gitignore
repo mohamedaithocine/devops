@@ -126,3 +126,5 @@ Vagrantfile.local
 *.sublime-workspace
 .editorconfig
 .obsidian
+
+./01-linux/*.private
