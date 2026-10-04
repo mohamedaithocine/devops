@@ -127,6 +127,6 @@ Vagrantfile.local
 .editorconfig
 .obsidian
 
-./01-linux/*.private
-./02-bash/battle_arena/Arena/*
-./02-bash/battle_arena/Backup/*
+01-linux/*.private
+02-bash/battle_arena/Arena
+02-bash/battle_arena/Backup
